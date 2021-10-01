@@ -1,0 +1,38 @@
+.operations-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 110px 0 162px ;
+
+}
+
+.operations__img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-right: 100px;
+}
+.operations__content{
+    width: 50%;
+}
+
+.operations_title{
+    @include title_small;
+    text-align:start;
+    max-width: 524px;
+    margin:  0 0 48px;
+}
+
+.operations_text{
+    font-size: 16px;
+    line-height: 20px; 
+    font-weight: bold;
+    max-width: 500px;
+    margin: 0 0 38px;
+}
+
+.operations_button_pr{
+    @include button_primary;
+}

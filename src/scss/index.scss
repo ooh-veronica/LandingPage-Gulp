@@ -1,9 +1,11 @@
 @import "mixin";
+@import "normalize";
+@import "nav";
+@import "future";
+@import "process";
+@import "operations";
+@import "solution";
+@import "price";
 
-$red: red;
-
-h1{
-    color: $red;
-    display: flex;
-}
+@import "footer";
 

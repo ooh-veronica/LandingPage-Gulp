@@ -1,0 +1,43 @@
+.process-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 110px 0 160px;
+    max-width: 1120px;
+    margin: 0 auto;
+    
+}
+ 
+
+.process_title{
+    @include title_small;
+    text-align:start;
+    margin: 0 0 46px;
+}
+
+.process_text{
+    font-size: 16px;
+    line-height: 20px; 
+    font-weight: bold;
+    margin: 0 0 36px;
+    max-width: 500px;
+}
+.process__img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.process_button_wh{
+    @include button;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    color: #30D7BA;
+    margin: 0 10px 0 0;
+    border: 1px solid #30D7BA;
+}
+
+.process_button_pr{
+    @include button_primary;
+    margin: 0 10px 0 0;
+}

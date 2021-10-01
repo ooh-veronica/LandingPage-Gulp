@@ -1,0 +1,45 @@
+
+.solution-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+.solution__content{
+  margin-left: 20px;
+}
+
+.solution__content p{
+    max-width: 302px;
+    padding: 47px 0 38px;
+}
+
+.solution_title{
+    @include title_small;
+    max-width: 374px;
+    text-align: start;
+}
+
+.solution-button_pr{
+    @include button_primary;
+    margin: 0 7px 0 0;
+    padding: 16px 42px;
+}
+
+.solution-button_wh{
+    @include button;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    color: #30D7BA;
+    border: 1px solid #30D7BA;
+    padding-right: 70px;
+    padding: 16px 42px;
+}
+
+.solution_img{
+    display: flex;
+    padding: 74px 0 124px ;
+    max-width: 1,39;
+
+}

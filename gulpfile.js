@@ -32,7 +32,7 @@ function scss() {
 function img() {
     return src('src/img/*')
         .pipe(imgmin())
-        .pipe(dest('dist/img'))
+        .pipe(dest('./dist/img'))
 }
 
 function clear() {

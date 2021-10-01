@@ -23,5 +23,8 @@
   },
   "browserslist": [
     "last 3 version"
-  ]
+  ],
+  "dependencies": {
+    "jpegtran-bin": "^5.0.2"
+  }
 }
