@@ -62,3 +62,24 @@
     letter-spacing: 0.1px;
 
 }
+
+@media (max-width:524px) {
+
+    .future_content{
+        max-width: 402px;
+    }
+
+    .future__title{
+        max-width: 282px;
+    }
+
+    .future__list{
+        flex-direction: column;
+    }
+
+    .future__list_item + .future__list_item{
+        margin-left: 0;
+        margin-top: 64px;
+    }
+
+}

@@ -63,6 +63,11 @@
 
 .inform_phone::before{
     content: url(../img/phone.png);
+    width: 47px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     top: 50%;
     left: 0%;
@@ -70,8 +75,35 @@
 }
 
 .contacts_icons{
+    display: flex;
+    
+}
 
+.contacts_items_ic{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts_items_ic + .contacts_items_ic{
+    margin: 0 0 0  32px;
 }
 
 
+@media (max-width:524px) {
 
+  
+    .contacts{
+        padding: 0;
+        justify-content: center;
+    }
+    
+    .contacts__img{
+        display: none;
+    }  
+    .inform{
+        margin: 40px 0 0 0;
+    }
+  
+}

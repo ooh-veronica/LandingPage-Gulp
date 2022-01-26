@@ -1,11 +1,5 @@
 .operations-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1160px;
-    margin: 0 auto;
     padding: 110px 0 162px ;
-
 }
 
 .operations__img{
@@ -36,3 +30,51 @@
 .operations_button_pr{
     @include button_primary;
 }
+
+
+@media (max-width:524px) {
+    .container_large{
+        flex-direction: column;
+    }
+
+    .operations-container{
+        padding: 0;
+    }
+    .operations__content{
+        width: 374px;   
+    } 
+    .operations_text{
+        text-align: start;
+    }
+    .operations__img {
+        width: 462px;
+        align-items: center;
+        padding: 98px 0 0;
+        order: 1;
+        padding-right: 0;
+
+       
+    }  
+    .operations_title{
+       font-size: 0px; 
+    }
+
+    .operations_title:after{
+        @include title_small;
+        content: 'OpenType features and Variable fonts';
+        text-align:start;
+        max-width: 524px;
+        margin:  0 0 48px;
+    }
+    
+    .operations_button_pr{
+        padding: 18px 104px;
+        margin: 0 auto;
+    }
+
+    
+}
+
+
+
+

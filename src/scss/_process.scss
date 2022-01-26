@@ -1,11 +1,5 @@
 .process-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 110px 0 160px;
-    max-width: 1120px;
-    margin: 0 auto;
-    
+    padding: 110px 0 160px; 
 }
  
 
@@ -40,4 +34,29 @@
 .process_button_pr{
     @include button_primary;
     margin: 0 10px 0 0;
+}
+
+
+@media (max-width:524px){
+    .container_large{
+        flex-direction: column;
+        max-width:338px;
+        order: 0;
+    }
+
+    .process__img {
+       width: auto;
+       padding-left: 0;
+       margin: 0 auto;
+       padding: 98px 10px 0;
+    }
+
+    .process_button_wh{
+        margin: 22px 0 0;
+        padding: 18px 108px;
+    }
+    .process_button_pr{
+        margin: 0;
+        padding: 18px 104px;
+    }
 }

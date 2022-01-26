@@ -1,7 +1,5 @@
-
-
 .price__content{
-    padding: 50px 256px 0;
+    padding: 50px 256px 134px;
     text-align: center;
 }
 
@@ -59,7 +57,106 @@
     padding-top: 20px;
 }
 
+.price__grid{
+    display: grid;
+    grid-template-rows: 60px 19px; 
+    grid-template-columns: 66px 33px;
+}
+
+.price__container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.price_container_costs{
+    width: 50%;
+}
+
+.price__number{
+    max-width: 66px;
+    max-height: 66px;
+}
+
+.price__currency{
+    max-width: 19px;
+    max-height: 33px;
+}
+
+.price__month{
+    max-width: 62px;
+    max-height: 18px;
+}
+
 .price__button{
     @include button_primary;
     margin-top: 40px;
 }
+
+.price__button2{
+    @include button_primary;
+    margin-top: 46px;
+}
+
+.subscribe{
+    margin: 124px 0 114px;
+}
+
+.subscribe__form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe__input{
+    width:  284px;
+    height: 52px;
+    background: #EFEFEF;
+    border: 1px solid #D0D0D0;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.subscribe__button{
+    @include button_primary;
+    margin-left: 10px;
+}
+
+@media (max-width:524px){
+    .container_large{
+        flex-direction: column;
+    }
+
+    .price__content{
+        max-width:340px;
+        padding: 60px 92px 22px ;
+    }
+
+    .price__list{
+        display: block;
+    }
+
+    .price__items{
+        padding: 0 0 40px;
+        margin: 0 0 34px;
+    }
+    .subscribe__form{
+        flex-direction: column;
+    }
+
+    .subscribe__input{
+        width: 484px;
+        height: 56px;
+        margin: 12px;
+    }
+
+    .subscribe__button{
+        margin-left: 0;
+        font-size: 22px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+
+}
+
