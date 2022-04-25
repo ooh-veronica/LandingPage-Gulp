@@ -83,9 +83,9 @@
 }
 
 
-@media (max-width:524px) {
+@media (max-width:780px) {
     .main-header__content{
-        max-width: 334px;
+        width: 334px;
     }
 
     .main-header__title{
@@ -108,15 +108,35 @@
     }
 
     .main-header_img{
-        width: 364px;
+        width: auto;
         height: 224px;
         margin: 0 auto;
+        padding: 40px 0 10px;
     }
 
-    @media (max-width:524px){
-       
-    }
-    
 
 
 }
+
+
+// .header {
+//     background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
+// }
+
+// .main-nav {
+//     max-width: 1284px;
+//     display: flex;
+//     justify-content: space-around;
+//     margin: 0 auto;
+// }
+
+// .main-nav-list {
+//     display: flex;
+//     list-style: none;
+// }
+
+// .main-nav-items + .main-nav-items {
+//     margin-left: 52px;
+// }
+
+

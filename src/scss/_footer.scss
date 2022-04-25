@@ -91,19 +91,26 @@
 }
 
 
-@media (max-width:524px) {
+@media (max-width:780px) {
 
-  
     .contacts{
         padding: 0;
-        justify-content: center;
+        justify-content: space-around;
     }
     
+    .contacts_list {
+        display: grid;
+    }
     .contacts__img{
         display: none;
     }  
     .inform{
         margin: 40px 0 0 0;
     }
+
+    .main-nav-list {
+        display: none;
+    }
+
   
 }

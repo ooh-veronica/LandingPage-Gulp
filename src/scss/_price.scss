@@ -121,18 +121,23 @@
     margin-left: 10px;
 }
 
-@media (max-width:524px){
+@media (max-width:780px){
     .container_large{
         flex-direction: column;
     }
 
     .price__content{
-        max-width:340px;
         padding: 60px 92px 22px ;
+        margin: 0 auto;
+    }
+
+    .price__content-title{
+        padding-top: 10px;
     }
 
     .price__list{
         display: block;
+        max-width:340px;
     }
 
     .price__items{
@@ -156,7 +161,5 @@
         justify-content: flex-start;
         align-items: center;
     }
-
-
 }
 

@@ -30,9 +30,9 @@ function scss() {
 }
 
 function img() {
-    return src('src/img/*')
+    return src('src/img/**/*.{jpg,png,svg,gif,ico}')
         .pipe(imgmin())
-        .pipe(dest('./dist/img'))
+        .pipe(dest('dist/img'))
 }
 
 function clear() {
